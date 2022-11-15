@@ -42,9 +42,6 @@ public class HashTags {
                 list.stream().collect(Collectors.groupingBy(
                         Function.identity(), Collectors.counting()));
 
-
-
-
       //  frequency.forEach((k, v) -> System.out.println(k + ": " + v));
 
         return frequency;
@@ -52,11 +49,20 @@ public class HashTags {
 
 
 
-    public static void  top5Hashtags3(Map<String, Long> longMap) {
+    public static Map<String, Long> top5Hashtags3(Map<String, Long> longMap) {
 
          longMap.entrySet().stream()
                 .sorted(Map.Entry.<String, Long>comparingByValue().reversed()).limit(5)
                 .forEach(System.out::println);
+         
+         return longMap;
+    }
+
+    public static String top5Hashtags4(List<String> list) {
+
+        return top5Hashtags3(top5Hashtags2(top5Hashtags1(list))).toString();
+
+
     }
 
 

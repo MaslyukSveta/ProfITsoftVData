@@ -1,28 +1,49 @@
 package org.profitsoftvdata.task3;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Collections;
 
+/**
+ *
+ */
 public class Shapes3D {
 
+    ArrayList<Geometric3DShapes> list = new ArrayList<>();
 
-    Geometric3DShapes[] list = new Geometric3DShapes[100];
-    int p = 0;
 
+    /**
+     * @param f
+     */
     public void add(Geometric3DShapes f) {
-        list[p++] = f;
+        list.add(f);
     }
 
+    /**
+     *
+     */
     public void sortSquare() {
-        Arrays.sort(list, new FigureComparator());
+        Collections.sort(list, new FigureComparator());
 
     }
 
-    public void sortSquarePrint() {
-        Arrays.sort(list, new FigureComparator());
+    /**
+     *
+     */
+    public void sortSquarePrint(Shapes3D shapes3D1) {
+        Collections.sort(list, new FigureComparator());
 
         for (Geometric3DShapes t : list) {
             if (t != null) {
                 System.out.println(t.figureVolume());
+            }
+        }
+    }
+    public void sortSquarePrint1() {
+        Collections.sort(list, new FigureComparator());
+
+        for (Geometric3DShapes t : list) {
+            if (t != null) {
+                System.out.println(t.toString() + " " + t.figureVolume());
             }
         }
     }

@@ -1,8 +1,6 @@
 package org.profitsoftvdata.task1;
 
 
-import java.util.Arrays;
-
 import static java.util.Arrays.*;
 
 /**
@@ -20,10 +18,22 @@ public class Numbers {
      */
     public static int[] positiveIntegerSort(int[] numbers) {
 
-        parallelSort(numbers);
-
-        return stream(numbers)
+        return stream(numbers).sorted()
                 .filter(i -> i >= 0).toArray();
+    }
+
+    public static int[] sort(int[] array) {
+        for (int i = 0; i < array.length / 2; i++) {
+            int tmp = array[i];
+            array[i] = array[array.length - i - 1];
+            array[array.length - i - 1] = tmp;
+        }
+        return array;
+    }
+
+    public static int[] positiveIntegerSort1(int[] numbers) {
+
+        return sort(positiveIntegerSort(numbers));
     }
 
 

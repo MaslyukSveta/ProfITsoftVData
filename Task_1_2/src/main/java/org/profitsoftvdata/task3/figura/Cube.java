@@ -2,13 +2,21 @@ package org.profitsoftvdata.task3.figura;
 
 import org.profitsoftvdata.task3.Geometric3DShapes;
 
+/**
+ *
+ */
 public class Cube extends Geometric3DShapes {
+
 
     private int a;
 
+    /**
+     * @param a
+     */
     public Cube(int a) {
         this.a = a;
     }
+
 
     public int getA() {
         return a;
@@ -18,6 +26,9 @@ public class Cube extends Geometric3DShapes {
     }
 
 
+    /**
+     * @return
+     */
     @Override
     public int figureVolume(){
         return (int) Math.pow(a, 3);

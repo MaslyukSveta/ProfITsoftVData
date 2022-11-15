@@ -4,19 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63e8fee7-314c-426e-8536-7ee16cbc1de3" name="Changes" comment="Adding classes and comments">
-      <change afterPath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task3/FigureComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task3/Shapes3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task3/figura/Cube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task3/figura/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task3/figura/Sqhere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task_1_2/src/test/java/org/profitsoftvdata/task1/NumbersTest.java" afterDir="false" />
+    <list default="true" id="63e8fee7-314c-426e-8536-7ee16cbc1de3" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/Task_1_2/src/test/java/org/profitsoftvdata/task2/HashTagsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task_1_2/src/test/java/org/profitsoftvdata/task3/Shapes3DTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_1_2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1_2/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task1/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task1/Numbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task2/HashTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task2/HashTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task3/FigureComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task3/FigureComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task3/Geometric3DShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task3/Geometric3DShapes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task3/Shapes3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task3/Shapes3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task3/figura/Cube.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task3/figura/Cube.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task3/figura/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task3/figura/Cylinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task3/figura/Sqhere.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1_2/src/main/java/org/profitsoftvdata/task3/figura/Sqhere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task_1_2/src/test/java/org/profitsoftvdata/task1/NumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Task_1_2/src/test/java/org/profitsoftvdata/task1/NumbersTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +28,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -69,10 +77,12 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.profitsoftvdata.task2" />
+      <recent name="org.profitsoftvdata.task3" />
       <recent name="org.profitsoftvdata.task1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.profitsoftvdata.Main" />
       <module name="Task_1_2" />
@@ -86,9 +96,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HashTagsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task_1_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.profitsoftvdata.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.profitsoftvdata.task2" />
+      <option name="MAIN_CLASS_NAME" value="org.profitsoftvdata.task2.HashTagsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashTagsTest.top5Hashtags3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task_1_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.profitsoftvdata.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.profitsoftvdata.task2" />
+      <option name="MAIN_CLASS_NAME" value="org.profitsoftvdata.task2.HashTagsTest" />
+      <option name="METHOD_NAME" value="top5Hashtags3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task_1_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.profitsoftvdata.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.profitsoftvdata.task1" />
+      <option name="MAIN_CLASS_NAME" value="org.profitsoftvdata.task1.NumbersTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumbersTest.positiveIntegerSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task_1_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.profitsoftvdata.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.profitsoftvdata.task1" />
+      <option name="MAIN_CLASS_NAME" value="org.profitsoftvdata.task1.NumbersTest" />
+      <option name="METHOD_NAME" value="positiveIntegerSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.NumbersTest" />
+        <item itemvalue="JUnit.NumbersTest.positiveIntegerSort" />
+        <item itemvalue="JUnit.HashTagsTest.top5Hashtags3" />
+        <item itemvalue="JUnit.HashTagsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +176,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668457043496</updated>
-      <workItem from="1668457045138" duration="20008000" />
+      <workItem from="1668457045138" duration="26698000" />
     </task>
     <task id="LOCAL-00001" summary="Adding classes and comments">
       <created>1668458709430</created>
@@ -109,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668458709430</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1668477276907</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668477276907</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +212,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Adding classes and comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding classes and comments" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

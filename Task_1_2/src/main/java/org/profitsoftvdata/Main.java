@@ -1,16 +1,13 @@
 package org.profitsoftvdata;
 
-import org.profitsoftvdata.task2.HashTags;
 import org.profitsoftvdata.task3.*;
 import org.profitsoftvdata.task3.figura.Cube;
 import org.profitsoftvdata.task3.figura.Cylinder;
 import org.profitsoftvdata.task3.figura.Sqhere;
 
 import java.util.*;
-import java.util.function.Function;
-import java.util.stream.Collectors;
 
-import static org.profitsoftvdata.task1.Numbers.positiveIntegerSort;
+import static org.profitsoftvdata.task1.Numbers.positiveIntegerSort1;
 import static org.profitsoftvdata.task2.HashTags.*;
 
 public class Main {
@@ -20,7 +17,7 @@ public class Main {
 
 
         int [] arr = { 5, 2, 1, -8,0, 10 };
-        System.out.println(Arrays.toString(positiveIntegerSort(arr)));
+        System.out.println(Arrays.toString(positiveIntegerSort1(arr)));
 
         Shapes3D shapes3D = new Shapes3D();
 
@@ -40,7 +37,8 @@ public class Main {
 
 
 
-        shapes3D.sortSquarePrint();
+        shapes3D.sortSquarePrint(shapes3D1);
+        shapes3D.sortSquarePrint1();
 
         List<String> list = Arrays.asList(
                 "#Франция#d", "#Германия#d#d#d", "#Монако", "#Испания", "#Италия",
@@ -48,7 +46,9 @@ public class Main {
                 "#Испания", "#Италия", "#Монако", "#Сингапур", "#Армения");
 
 
-        top5Hashtags3(top5Hashtags2(top5Hashtags1(list)));
+       top5Hashtags3(top5Hashtags2(top5Hashtags1(list)));
+       top5Hashtags4(list);
+
 
 
     }

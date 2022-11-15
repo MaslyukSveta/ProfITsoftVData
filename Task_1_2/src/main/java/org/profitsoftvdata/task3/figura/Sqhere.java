@@ -23,6 +23,9 @@ public class Sqhere extends Geometric3DShapes {
     }
 
 
+    /**
+     * @return
+     */
     @Override
     public int figureVolume(){
         return (int) ((4 *Math.PI * r * r * r)/3);
